@@ -45,5 +45,10 @@ namespace Netpioneer.GCSC
             this.age = age;
             this.gender = gender;
         }
+
+        public override string ToString()
+        {
+            return firstName + " " + lastName + " (" + age + ", " + gender + ", " + loginName + ")";
+        }
     }
 }

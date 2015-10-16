@@ -6,8 +6,7 @@ namespace Netpioneer.GCSC
     {
         public int Compare(Customer x, Customer y)
         {
-            // Code here is irrelevant for the example
-            return 0;
+            return x.LastName.CompareTo(y.LastName);
         }
     }
 }

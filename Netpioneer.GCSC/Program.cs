@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             ICustomerService customerService = new CustomerService();
+            customerService.PrintSortedByAge();
         }
     }
 }
