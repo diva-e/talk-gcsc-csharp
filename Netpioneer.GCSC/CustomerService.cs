@@ -11,7 +11,7 @@ namespace Netpioneer.GCSC
             Customer customer1 = new Customer("login1", "Fritz", "Müller", 20, Gender.MALE);
             Customer customer2 = new Customer("login2", "Vivian", "Auer", 40, Gender.FEMALE);
             Customer customer3 = new Customer("login3", "Susi", "Sorglos", 30, Gender.FEMALE);
-            Customer customer4 = new Customer("login4", "Martin", "Auer", 18, Gender.FEMALE);
+            Customer customer4 = new Customer("login4", "Martin", "Auer", 18, Gender.MALE);
             customers.Add(customer1);
             customers.Add(customer2);
             customers.Add(customer3);
